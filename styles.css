@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555;
+    width: 100%;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+h2 span {
+    color: royalblue;
+}
+
+#logoutbtn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button#logoutbtn:hover {
+    background-color: #0056b3;
+}
+
+
+textarea#postContent {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    resize: vertical; 
+    box-sizing: border-box; 
+  }
+  
+  textarea#postContent:focus {
+    border-color: #007BFF; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+
+#postBtn {
+  background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#postBtn:hover {
+    background-color: #007BFF;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+#posts div.post {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#posts div.post p {
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.post,
+.facebook-icons,
+.like {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.postimage {
+    display: flex;
+    align-items: center;
+}
+
+.postimage img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.welcome h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.welcome p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 12px;
+}
+
+.userhead h3 {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.userhead img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.insight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.insight h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #1877f2;
+}
+
+.insight button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.facebook-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.image-icon,
+.share {
+    display: flex;
+    align-items: center;
+}
+
+.image-icon span,
+.share p {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.love-icon,
+.comment,
+.share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.love-icon i,
+.comment i,
+.share i {
+    margin-right: 5px;
+}
+
+.love-icon span,
+.comment span,
+.share span {
+    font-size: 14px;
+    color: #666;
+}
